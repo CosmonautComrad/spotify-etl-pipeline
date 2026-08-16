@@ -33,8 +33,10 @@ Make sure you have **Docker Desktop** installed and running on your host machine
 
 ### 2. Spin up the Infrastructure
 Clone this repository to your local directory and run:
+```
 bash
 docker-compose up -d
+```
 This command will pull and launch all required containers: Apache Airflow (Scheduler, Webserver), PostgreSQL, and Apache Superset.
 
 #### 3. Trigger the Pipeline
