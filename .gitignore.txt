@@ -1,0 +1,26 @@
+# === Python & System temporary files ===
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# === Apache Airflow logs & temporary files ===
+logs/
+airflow-worker-logs/
+*.pid
+*.local
+
+# === Docker & Database local data ===
+postgres-db-volume/
+.db_data/
+
+# === Data files (Optional but Recommended) ===
+dags/data/*.csv
